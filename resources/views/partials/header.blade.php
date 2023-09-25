@@ -1,51 +1,54 @@
 @php
-    $menuList = [
-        [
-            "name" => "CHARACTERS",
-        ],
-        [
-            "name" => "COMICS",
-        ],
-        [
-            "name" => "MOVIES",
-        ],
-        [
-            "name" => "TV",
-        ],
-        [
-            "name" => "GAMES",
-        ],
-        [
-            "name" => "COLLECTIBLES",
-        ],
-        [
-            "name" => "VIDEOS",
-        ],
-        [
-            "name" => "FANS",
-        ],
-        [
-            "name" => "NEWS",
-        ],
-        [
-            "name" => "SHOP",
-        ],
-    ];
+$menuList = [
+[
+"name" => "CHARACTERS",
+],
+[
+"name" => "COMICS",
+],
+[
+"name" => "MOVIES",
+],
+[
+"name" => "TV",
+],
+[
+"name" => "GAMES",
+],
+[
+"name" => "COLLECTIBLES",
+],
+[
+"name" => "VIDEOS",
+],
+[
+"name" => "FANS",
+],
+[
+"name" => "NEWS",
+],
+[
+"name" => "SHOP",
+],
+];
 @endphp
 
 <style>
-    .container{
+    .container {
         display: flex;
         align-items: center;
     }
-    ul{
-            list-style: none;
+
+    ul {
+        list-style: none;
     }
-    li{
+
+    li {
         display: flex;
         gap: 2rem;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #656661;
     }
@@ -59,12 +62,15 @@
 
         <div class="list-menu">
             <ul class="nav">
-                <li class="nav-item" >
+                <li class="nav-item">
                     @foreach ( $menuList as $singleMenu )
-                    <a href="#" class="nav-link ">{{$singleMenu["name"]}}</a>                     
+                    <a href="#" class="nav-link ">{{$singleMenu["name"]}}</a>
                     @endforeach
                 </li>
             </ul>
         </div>
+    </div>
+    <div>
+        <img src="/images/jumbotron.jpg" alt="">
     </div>
 </header>
