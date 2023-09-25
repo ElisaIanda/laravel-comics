@@ -106,23 +106,67 @@ $footerItem = [
     .text {
         color: #949494;
     }
+
+    .bg-gray {
+        background-color: #303030;
+    }
+
+    .footer-btn {
+        background-color: transparent;
+        border: 1px solid #0282f9;
+        color: white;
+        padding: 0.4rem;
+    }
 </style>
 <footer class="bg p-5">
+    <section>
+        <div class="container">
+            <div class="row">
+                @foreach ($footerItem as $singleItem)
+                <div class="col-3">
+                    <h3 class="text-white">{{ $singleItem['title'] }}</h3>
+                    <ul class="p-0">
+                        @foreach ($singleItem['link'] as $link)
+                        <li><a href="#" class="text">{{ $link['name'] }}</a></li>
+                        @endforeach
+                    </ul>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+</footer>
+
+<section class="bg-gray p-3">
     <div class="container">
-        <div class="row">
-            @foreach ($footerItem as $singleItem)
-            <div class="col-3">
-                <h3 class="text-white">{{ $singleItem['title'] }}</h3>
-                <ul class="p-0">
-                    @foreach ($singleItem['link'] as $link)
-                    <li><a href="#" class="text">{{ $link['name'] }}</a></li>
-                    @endforeach
-                </ul>
-                <div class="img">
-                    
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <button class="footer-btn">
+                    SIGN-UP NOW
+                </button>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <h5 class="text-primary">
+                    FOLLOW US
+                </h5>
+                <div>
+                    <img src="/images/footer-facebook.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/footer-twitter.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/footer-youtube.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/footer-pinterest.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/footer-periscope.png" alt="">
                 </div>
             </div>
-            @endforeach
         </div>
     </div>
-</footer>
+
+</section>
