@@ -169,7 +169,7 @@ return [
     [
         "title" => "Batman: Three Jokers #1",
         "description" => "Thirty years after Batman: The Killing Joke changed comics forever, Three Jokers reexamines the myth of who, or what, The Joker is and what is at the heart of his eternal battle with Batman. New York Times bestselling writer Geoff Johns and Jason Fabok, the writer/artist team that waged the “Darkseid War” in the pages of Justice League, reunite to tell the ultimate story of Batman and The Joker! After years of anticipation starting in DC Universe: Rebirth #1, the epic miniseries you’ve been waiting for is here: find out why there are three Jokers, and what that means for the Dark Knight and the Clown Prince of Crime. It’s a mystery unlike any Batman has ever faced!",
-        "thumb" => "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/08/cover-v2_5f40314645a734.37285065.png?itok=ImNM2QBY",
+        "thumb" => "https://i.etsystatic.com/16481726/r/il/2a677d/2922700721/il_1588xN.2922700721_ytbq.jpg",
         "price" => "$6.99",
         "series" => "Batman: Three Jokers",
         "sale_date" => "2020-08-25",
