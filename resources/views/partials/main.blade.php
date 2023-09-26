@@ -22,36 +22,7 @@ $itemList = [
 ],
 ];
 @endphp
-<style>
-    .card-img-top {
-        height: 287px;
-    }
 
-    main,
-    .card-body {
-        background-color: #1c1c1c;
-        color: white;
-    }
-
-    .card {
-        border: none;
-    }
-
-    .btn {
-        padding: 10px;
-        background-color: #0282f9;
-        border: none;
-    }
-
-    .container-img {
-        max-width: 100px;
-    }
-
-    .container-img>img {
-        width: 100%;
-        object-fit: contain;
-    }
-</style>
 <main>
     <div class="container pt-5 ">
 

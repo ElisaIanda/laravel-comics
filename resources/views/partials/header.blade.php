@@ -33,27 +33,6 @@ $menuList = [
 ];
 @endphp
 
-<style>
-    ul {
-        list-style: none;
-    }
-
-    li {
-        display: flex;
-        gap: 1rem;
-    }
-
-    a {
-        text-decoration: none;
-        color: #656661;
-    }
-
-    .jumbo {
-        overflow: hidden;
-        height: 400px;
-        max-width: 100%;
-    }
-</style>
 <header>
     <div class="container m-2">
         <div class="d-flex align-items-center">

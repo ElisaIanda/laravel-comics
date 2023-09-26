@@ -98,26 +98,7 @@ $footerItem = [
 ],
 ]
 @endphp
-<style>
-    .bg {
-        background-image: url(/images/footer-bg.jpg);
-    }
 
-    .text {
-        color: #949494;
-    }
-
-    .bg-gray {
-        background-color: #303030;
-    }
-
-    .footer-btn {
-        background-color: transparent;
-        border: 1px solid #0282f9;
-        color: white;
-        padding: 0.4rem;
-    }
-</style>
 <footer class="bg p-5">
     <section>
         <div class="container">
